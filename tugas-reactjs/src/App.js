@@ -4,7 +4,7 @@ import Tugas7 from "./tugas7/tugas7";
 import Tugas8 from "./tugas8/tugas8";
 import Tugas9 from "./tugas9/tugas9";
 import Tugas11 from "./tugas11/tugas11";
-import Testing from "./testting/testing";
+import Tugas12 from "./tugas12/tugas12";
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
         />
         <Tugas9 />
         <Tugas10 /> */}
-        <Tugas11 />
-        {/* <Testing /> */}
+        {/* <Tugas11 /> */}
+        <Tugas12 />
       </header>
     </>
   );

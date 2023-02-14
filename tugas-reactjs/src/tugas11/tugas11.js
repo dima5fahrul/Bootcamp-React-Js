@@ -36,7 +36,7 @@ const Tugas11 = () => {
   {
     return (
       <>
-        <div className="mb-20">
+        <div className="mb-20 mt-20">
           <Table>
             {/* ---------------------HeadCell------------------------------- */}
             <Table.Head className="bg-purple-600 text-white">
