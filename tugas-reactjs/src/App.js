@@ -6,10 +6,11 @@ import Tugas9 from "./tugas9/tugas9";
 import Tugas11 from "./tugas11/tugas11";
 import Tugas12 from "./tugas12/tugas12";
 import Tugas13 from "./tugas13/tugas13";
+import { GlobalProvider } from "./context/GlobalContext";
 
 function App() {
   return (
-    <>
+    <GlobalProvider>
       <header className="App-header">
         {/* <Tugas7 />
         <Tugas8
@@ -23,7 +24,7 @@ function App() {
         {/* <Tugas12 /> */}
         <Tugas13 />
       </header>
-    </>
+    </GlobalProvider>
   );
 }
 

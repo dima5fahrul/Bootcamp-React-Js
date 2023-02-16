@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import { TextInput, Label, Button, Table } from "flowbite-react";
+import { GlobalContext } from "../context/GlobalContext";
 
 const Tugas13 = () => {
+  // Membuat context
+  const { words, setWords, number, setNumber } = useContext(GlobalContext);
+
   // Menampung data dari API
   const [data, setData] = useState(null);
 
@@ -132,6 +136,8 @@ const Tugas13 = () => {
 
   return (
     <>
+      <p>{words}</p>
+      <p>{number}</p>
       <div className="mb-20 mt-20">
         <Table>
           {/* ---------------------HeadCell------------------------------- */}
