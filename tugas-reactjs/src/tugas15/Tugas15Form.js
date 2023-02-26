@@ -25,6 +25,7 @@ const Tugas15Form = () => {
         )
         .then((res) => {
           let data = res.data;
+          console.log(data);
           setInput({
             name: data.name,
             course: data.course,
@@ -156,6 +157,8 @@ const Tugas15Form = () => {
           </form>
         </div>
       </section>
+
+      <h1 className="text-center text-3xl font-bold">{input.name}</h1>
     </>
   );
 };

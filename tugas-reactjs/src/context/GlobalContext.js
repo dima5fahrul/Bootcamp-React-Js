@@ -46,6 +46,7 @@ export const GlobalProvider = (props) => {
     let idData = parseInt(event.target.value);
     setCurrentId(idData);
     navigate(`/edit/${idData}`);
+    console.log("mengambil data dari ", idData);
 
     // axios
     //   .get(
