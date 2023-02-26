@@ -1,0 +1,2 @@
+### tes get
+GET https://dev-example.sanbercloud.com/api/job-vacancy
